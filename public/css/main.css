@@ -1,0 +1,47 @@
+.team {
+  transition: all 300ms ease;
+  border: 1px solid rgba(169, 158, 159, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.team:hover {
+  background-color: #a99e9f;
+  box-shadow: 0px 0px 5px #6c5f5f;
+  transform: scale(1.06);
+}
+
+.team figure img {
+  transition: all 300ms ease;
+}
+
+.team figure::placeholder {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: red;
+}
+
+.team .contact li a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  transition: all 300ms ease;
+}
+
+.team .contact li a:hover {
+  color: #944b5a;
+  transform: scale(1.1);
+}
+
+.team .contact li::before {
+  content: '|';
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
+.team .contact li:first-child::before {
+  content: '';
+  margin-left: 0px;
+  margin-right: 0px;
+}

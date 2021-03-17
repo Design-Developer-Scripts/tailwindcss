@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: OpenSans;
+    src: url('../../public/fonts/OpenSans-Regular.ttf') format("truetype");
+}
+
+
+@layer base {
+    body{
+        @apply font-body;
+    }
+    p{
+        @apply text-lg;
+    }
+    h1 {
+        @apply text-5xl;
+    }
+    h2 {
+        @apply text-3xl;
+    }
+    h3 {
+        @apply text-2xl;
+    }
+    .btn {
+        @apply rounded shadow-sm transition hover:shadow-none px-3 py-2 dark:text-white
+    }
+}
