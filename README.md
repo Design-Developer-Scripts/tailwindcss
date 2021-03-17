@@ -1,0 +1,2 @@
+# tailwindcss
+Default Tailwindcss Settings
